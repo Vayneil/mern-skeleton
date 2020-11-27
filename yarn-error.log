@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\Program Files\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;D:\SIMULIA\Commands;D:\Tools\abaqus\Commands;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\yarn\bin\;C:\Program Files (x86)\Calibre2\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\CMake\bin;C:\Users\d\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Tools\Anaconda3\python.exe;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\d\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\d\AppData\Local\Programs\Python\Python36\;C:\Users\d\.windows-build-tools\python27\;D:\Tools\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\d\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\d\AppData\Roaming\npm\node_modules\.bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Tools\nodejs\;D:\Program Files\yarn\bin\;C:\Users\d\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\d\AppData\Local\Programs\Python\Python37\;C:\Users\d\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\d\AppData\Local\Programs\Python\Python35-32\;C:\Users\d\AppData\Local\Microsoft\WindowsApps;C:\Users\d\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\PyCharm 2019.2.4\bin;;C:\Users\d\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;C:\Users\d\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\d\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  14.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\Program Files\yarn\lib\cli.js:125278:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:296:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
