@@ -1,6 +1,5 @@
 import webpack from 'webpack'
 import webpackMiddleware from 'webpack-dev-middleware'
-import WebpackHotMiddleware from 'webpack-hot-middleware'
 import webpackHotMiddleware from 'webpack-hot-middleware'
 import webpackConfig from './../webpack.config.client.js'
 
@@ -11,7 +10,7 @@ const compile = (app) => {
             publicPath: webpackConfig.output.publicPath
         })
         app.use(middleware)
-        app.use(WebpackHotMiddleware(compiler))
+        app.use(webpackHotMiddleware(compiler))
     }
 }
 
