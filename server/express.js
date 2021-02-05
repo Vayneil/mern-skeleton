@@ -4,11 +4,13 @@ import cookieParser from 'cookie-parser'
 import compress from 'compression'
 import cors from 'cors'
 import helmet from 'helmet'
+import path from 'path'
 
 import userRoutes from './routes/user.routes.js'
 import authRoutes from './routes/auth.routes.js'
 
 const app = express()
+const CURRENT_WORKING_DIR = process.cwd()
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -31,5 +33,6 @@ app.use((err, req, res, next) => {
         })
     }
 })
+app.use('/dist', express.static(path.join(CURRENT_WORKING_DIR, 'dist')))
 
 export default app
