@@ -32,7 +32,7 @@ app.listen(config.port, (err) => {
 //     console.log("Connected successfully to mongodb server")
 //     db.close()
 // })
-mongoose.Promise = global.Promise
+// mongoose.Promise = global.Promise
 mongoose.connect(config.mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true,
