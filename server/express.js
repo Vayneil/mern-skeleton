@@ -18,6 +18,12 @@ app.use(cookieParser())
 app.use(compress())
 app.use(helmet())
 app.use(cors())
+app.use(helmet.contentSecurityPolicy({
+    directives: {
+        defaultSrc: ["'self'", "fonts.googleapis.com", "fonts.gstatic.com", "'unsafe-eval'", "'unsafe-inline'"],
+        imgSrc: ["'self'"]
+    }
+}))
 
 app.use('/', userRoutes)
 app.use('/', authRoutes)
